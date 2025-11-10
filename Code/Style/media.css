@@ -71,7 +71,7 @@
 }
 
 /* xlarge */
-@media (min-width: 1200px){
+@media (min-width: 1280px){
     .xla-100{
         width: 100% !important;
     }
