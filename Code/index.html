@@ -26,6 +26,17 @@
                 >
               </h3>
             </div>
+            <input
+              type="radio"
+              id="menu-toggle"
+              class="menu-toggle"
+              name="show"
+            />
+            <label for="menu-toggle" class="menu-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
             <div class="nav-bar-section-c2">
               <ul>
                 <li><a href="#hero">HOME</a></li>
@@ -46,6 +57,62 @@
             <div class="nav-bar-section-c3">
               <a href="#community">SUBSCRIBE NOW</a>
             </div>
+            <input type="radio" id="toggle" class="menu-toggle" name="show" />
+            <input type="radio" id="HOME" class="menu-toggle" name="show" />
+            <input type="radio" id="ARTICLES" class="menu-toggle" name="show" />
+            <input type="radio" id="AUTHORS" class="menu-toggle" name="show" />
+            <input
+              type="radio"
+              id="COMMUNITY"
+              class="menu-toggle"
+              name="show"
+            />
+            <div class="display-or-not">
+              <div class="nav-bar-section-c11">
+                <span>MENU</span>
+                <label for="toggle" class="X">x</label>
+              </div>
+              <div class="nav-bar-section-c22">
+                <ul>
+                  <li>
+                    <label
+                      for="HOME"
+                      onclick="document.getElementById('HOME').checked=true; window.location='#hero'"
+                      >HOME</label
+                    >
+                  </li>
+                  <li>
+                    <label
+                      for="ARTICLES"
+                      onclick="document.getElementById('ARTICLES').checked=true; window.location='#latestArticles'"
+                      >LATEST ARTICLES</label
+                    >
+                  </li>
+                  <li>
+                    <label
+                      for="AUTHORS"
+                      onclick="document.getElementById('AUTHORS').checked=true; window.location='#authors'"
+                      >AUTHORS</label
+                    >
+                  </li>
+                  <li>
+                    <label
+                      for="COMMUNITY"
+                      onclick="document.getElementById('COMMUNITY').checked=true; window.location='#community'"
+                      >COMMUNITY</label
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="nav-bar-section-c33">
+                <label
+                  for="COMMUNITY"
+                  onclick="document.getElementById('COMMUNITY').checked=true; window.location='#community'"
+                  >SUBSCRIBE NOW</label
+                >
+              </div>
+            </div>
+            <div class="overlay"></div>
           </div>
         </div>
       </div>
@@ -58,8 +125,6 @@
           <div class="section-1">
             <div class="TRENDING-NOW">🔥 TRENDING NOW</div>
             <div class="section-1-l">
-              <div class="FEATURED">FEATURED</div>
-
               <div class="section-1-l-d">
                 <div class="section-1-l-h">
                   <h1>
@@ -76,6 +141,7 @@
               </div>
               <div class="section-1-r">
                 <img src="Needs/Photos/hero-img.png" />
+                <div class="FEATURED">FEATURED</div>
               </div>
             </div>
             <div class="section-1-l-b-container">
@@ -237,7 +303,7 @@
                   </div>
                 </div>
                 <div class="section-2-cl-c-card-container card-3-h">
-                  <div class="shadow-1">sdsdd</div>
+                  <div class="shadow-1"></div>
                   <div class="section-2-cl-c-card" class="card-3-h">
                     <div class="section-2-cl-c-card-photo">
                       <div class="VIRAL-1">VIRAL</div>
